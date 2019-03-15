@@ -1,0 +1,20 @@
+/*reset */
+*{
+*margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+
+/*Utility *
+a {
+text decoration:none;
+}
+ 
+/*Navbar */
+nav  {
+background: #333
+}
+
+nav a {
+color:  white;
+}

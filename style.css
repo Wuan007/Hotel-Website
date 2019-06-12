@@ -10,10 +10,11 @@ body {
     line-height: 1.7em;
 }
 
+/* Utility */
 
 .py-1{
     padding: 10px 0;
-    
+
 }
  
 .py-2{
@@ -158,17 +159,13 @@ nav ul li a.current,nav ul li a:hover {
     width: 50%;
     min-height: 100%
 }
-#about-info .info-left h1 {
-    font-size: 40px;
-    line-height: 1.2em;
-}
+    
+#about-info .info-left h1{
+font-size: 40px;
+line-height: 1.2em;
+    }
 
 
-#about-info .info-right  {
-    float: right;
-    width: 50;
-    min-height: 100%
-}
 #about-info .info-right img{
     display: block;
     margin: auto;
@@ -176,11 +173,44 @@ nav ul li a.current,nav ul li a:hover {
     border-radius: 50%
 }
 
+/*Testimonial */
+#testimonials {
+   background: url("../img/test-bg.jpg") no-repeat center center/cover;
+   height: 100%;
+   padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+/* Contact */
+#contact-form h1{
+    font-size: 40px;
+    line-height: 1.2em;
+}
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
 }
+
 
 
